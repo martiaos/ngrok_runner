@@ -1,0 +1,6 @@
+authtoken: $AUTH_TOKEN
+tunnels: 
+  ssh:
+    proto: tcp
+    addr: 22
+    auth: "$USER:$PASS"
